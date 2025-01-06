@@ -10,7 +10,7 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(chatId, 'Привет! Нажми кнопку ниже, чтобы открыть игру.', {
         reply_markup: {
             inline_keyboard: [
-                [{ text: 'Начать игру', web_app: { url: 'https://arcanoid-front-pnb2kia95-dondylions-projects.vercel.app' } }]
+                [{ text: 'Начать игру', web_app: { url: 'https://arcanoid-front-dxfw.vercel.app/' } }]
             ]
         }
     });
